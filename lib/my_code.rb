@@ -9,8 +9,9 @@ def map(source_array)
 new_array
 end
 
+reduce([1,23])
 
-def reduce(array=nil, starting_point=nil)
+def reduce(array, starting_point=nil)
   if starting_point
     returned_value = starting_point
     i = 0
