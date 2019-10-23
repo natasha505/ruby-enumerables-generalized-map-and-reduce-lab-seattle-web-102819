@@ -10,7 +10,7 @@ new_array
 end
 
 
-def reduce(array, starting_point)
+def reduce(array=nil, starting_point=nil)
   if starting_point
     returned_value = starting_point
     i = 0
